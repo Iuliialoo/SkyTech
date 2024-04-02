@@ -1,0 +1,231 @@
+:root{
+    font-size: 62.5%;
+    --background-color: #131212;
+    --text-headers-color: #5F5F5F;
+    --text-color: #B2B2B2;
+    --decor-color: #A641B7;
+    --shadow-color: #181818;
+    --gray-color: #464646;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: 'Handlee', cursive;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+header{
+    height: 235px;
+    background-color: var(--shadow-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main {
+    background-color: var(--background-color);
+    padding: 14rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.text-28 {
+    font-size: 2.8rem;
+}
+
+.text-20 {
+    font-size: 2rem;
+}
+
+.text-24 {
+    font-size: 2.4rem;
+}
+
+.text-40 {
+    font-size: 4rem;
+
+}
+
+.text-headers {
+    font-size: 12.8rem;
+    color: var(--text-headers-color);
+    margin-bottom: 6rem;
+}
+
+.search{
+    width: 80rem;
+    height: 9rem;
+    background-color: #000;
+    border: 1px solid #5F5F5F;
+    border-radius: 4rem;
+    color: #fff;
+    font-size: 4rem;
+    padding-left: 4rem;
+}
+
+.menu-button {
+    border: none;
+    background-color: transparent;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.3rem;
+    margin-bottom: 14rem;
+}
+
+.block-of-items-why-we {
+    max-width: 1658px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8.5rem;
+}
+
+.block-item-why-we {
+    background-color: var(--shadow-color);
+    width: 52.8rem;
+    height: 35.6rem;
+    padding: 4.9rem 3.5rem 0rem;
+}
+
+.icon-and-text {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 7rem;
+    gap: 24px;
+}
+
+.button-circle {
+    opacity: 0;
+}
+
+.circle{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border: 0.1rem solid var(--blackText-color);
+    border-radius: 50%; 
+    background-color: var(--gray-color);
+}
+
+.circle-white{
+    background-color: #fff;
+}
+
+.block-circles {
+    display: flex;
+    gap: 3.6rem;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3.2rem;
+    margin-bottom: 14rem;
+}
+
+.block-of-items-our-best-offers {
+    max-width: 1320px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+}
+
+.block-item-our-best-offers {
+    background-color: var(--shadow-color);
+    width: 42rem;
+    height: 48.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    gap: 20px;
+}
+
+.button-decor {
+    background-color: transparent;
+    border: 0.1rem solid var(--decor-color);
+    color: #fff;
+    border-radius: 2.4rem;
+    width: 100%;
+    height: 6.4rem;
+    font-size: 2.4rem;
+    margin-top: auto;
+    width: 23.4rem;
+}
+
+.a-decor {
+    background-color: transparent;
+    border: 0.1rem solid var(--decor-color);
+    color: #fff;
+    border-radius: 2.4rem;
+    width: 100%;
+    height: 6.4rem;
+    font-size: 2.4rem;
+    margin-top: auto;
+    width: 23.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog-button {
+    margin-top: 6.8rem;
+}
+
+.description-and-in-cart {
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+}
+
+.div-img {
+    display: flex;
+    align-items: center;
+    height: 20rem;
+}
+
+.third-section {
+    height: 53.5rem;
+    background-image: url(../img/bk.png);
+}
+
+.block-and-switch-wtf {
+    display: flex;
+    width: 177rem;
+    justify-content: space-between;
+}
+
+.who-we-wtf {
+    padding-top: 3.2rem;
+    padding-left: 30.3rem;
+}
+
+.SAPR-wtf {
+    padding-left: 20.3rem;
+    padding-top: 7rem;
+}
+
+footer {
+    background-color: var(--shadow-color);
+    height: 10rem;
+    border-top: 0.1rem solid var(--decor-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-items-center {
+    max-width: 140rem;
+    width: 100%;
+    display: flex;
+    gap: 5rem;
+    justify-content: flex-end;
+}
